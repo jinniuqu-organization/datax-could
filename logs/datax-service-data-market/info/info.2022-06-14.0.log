@@ -1,0 +1,132 @@
+2022-06-14 10:45:26 INFO  datax-service-data-market background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+2022-06-14 10:45:26 INFO  datax-service-data-market main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$cdf36607] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 10:45:28 INFO  datax-service-data-market main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Fetching config from server at : http://localhost:8611/
+2022-06-14 10:45:29 INFO  datax-service-data-market main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Located environment: name=datax-service-data-market, profiles=[dev], label=null, version=null, state=null
+2022-06-14 10:45:29 INFO  datax-service-data-market main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-classpath:/config/datax-service-data-market-dev.yml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config/application-dev.yml'}]
+2022-06-14 10:45:29 INFO  datax-service-data-market main cn.datax.service.data.market.DataxMarketApplication The following profiles are active: dev
+2022-06-14 10:45:30 INFO  datax-service-data-market main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-14 10:45:30 INFO  datax-service-data-market main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-14 10:45:30 INFO  datax-service-data-market main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2022-06-14 10:45:31 INFO  datax-service-data-market main org.springframework.cloud.context.scope.GenericScope BeanFactory id=0efe0b3e-e7f4-3c4b-b7ba-671379a3fdee
+2022-06-14 10:45:31 INFO  datax-service-data-market main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 10:45:31 INFO  datax-service-data-market main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$41be3eb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 10:45:31 INFO  datax-service-data-market main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 10:45:31 INFO  datax-service-data-market main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@dc1fadd' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 10:45:31 INFO  datax-service-data-market main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 10:45:32 INFO  datax-service-data-market main io.undertow.servlet Initializing Spring embedded WebApplicationContext
+2022-06-14 10:45:32 INFO  datax-service-data-market main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3699 ms
+2022-06-14 10:45:33 INFO  datax-service-data-market main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-14 10:45:33 INFO  datax-service-data-market main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@298e002d
+2022-06-14 10:45:33 INFO  datax-service-data-market main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2022-06-14 10:45:33 INFO  datax-service-data-market main com.zaxxer.hikari.HikariDataSource mysql - Starting...
+2022-06-14 10:45:34 INFO  datax-service-data-market main com.zaxxer.hikari.HikariDataSource mysql - Start completed.
+2022-06-14 10:45:34 INFO  datax-service-data-market main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - load a datasource named [mysql] success
+2022-06-14 10:45:34 INFO  datax-service-data-market main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [mysql]
+2022-06-14 10:45:38 INFO  datax-service-data-market main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-06-14 10:45:38 INFO  datax-service-data-market main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-14 10:45:38 INFO  datax-service-data-market main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-14 10:45:39 INFO  datax-service-data-market main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-14 10:45:40 INFO  datax-service-data-market main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: c0f7c3a3-5e09-41eb-a0d2-d6c633b3553c
+
+2022-06-14 10:45:40 INFO  datax-service-data-market main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5fc3b20b, org.springframework.security.web.context.SecurityContextPersistenceFilter@10fef6da, org.springframework.security.web.header.HeaderWriterFilter@522fdf0c, org.springframework.security.web.authentication.logout.LogoutFilter@31906cb2, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@1a0b51e7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63604641, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33dcbdc2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67afba96, org.springframework.security.web.session.SessionManagementFilter@1802badc, org.springframework.security.web.access.ExceptionTranslationFilter@6f636de3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3927de0e]
+2022-06-14 10:45:41 INFO  datax-service-data-market main org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses Jersey
+2022-06-14 10:45:41 INFO  datax-service-data-market main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2022-06-14 10:45:41 INFO  datax-service-data-market main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2022-06-14 10:45:42 INFO  datax-service-data-market main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2022-06-14 10:45:42 INFO  datax-service-data-market main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2022-06-14 10:45:42 INFO  datax-service-data-market main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2022-06-14 10:45:42 INFO  datax-service-data-market main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2022-06-14 10:45:43 INFO  datax-service-data-market main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 10:45:44 INFO  datax-service-data-market main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2022-06-14 10:45:44 INFO  datax-service-data-market main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2022-06-14 10:45:44 INFO  datax-service-data-market main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2022-06-14 10:45:44 INFO  datax-service-data-market main com.netflix.discovery.DiscoveryClient Application is null : false
+2022-06-14 10:45:44 INFO  datax-service-data-market main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2022-06-14 10:45:44 INFO  datax-service-data-market main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2022-06-14 10:45:44 INFO  datax-service-data-market main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2022-06-14 10:45:44 INFO  datax-service-data-market main com.netflix.discovery.DiscoveryClient The response status is 200
+2022-06-14 10:45:44 INFO  datax-service-data-market main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2022-06-14 10:45:44 INFO  datax-service-data-market main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-06-14 10:45:44 INFO  datax-service-data-market main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1655174744128 with initial instances count: 10
+2022-06-14 10:45:44 INFO  datax-service-data-market main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application DATAX-SERVICE-DATA-MARKET with eureka with status UP
+2022-06-14 10:45:44 INFO  datax-service-data-market main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1655174744135, current=UP, previous=STARTING]
+2022-06-14 10:45:44 INFO  datax-service-data-market DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-DATA-MARKET/li20220331:datax-service-data-market:8822: registering service...
+2022-06-14 10:45:44 INFO  datax-service-data-market main io.undertow starting server: Undertow - 2.1.4.Final
+2022-06-14 10:45:44 INFO  datax-service-data-market main org.xnio XNIO version 3.8.0.Final
+2022-06-14 10:45:44 INFO  datax-service-data-market main org.xnio.nio XNIO NIO Implementation Version 3.8.0.Final
+2022-06-14 10:45:44 INFO  datax-service-data-market DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-DATA-MARKET/li20220331:datax-service-data-market:8822 - registration status: 204
+2022-06-14 10:45:44 INFO  datax-service-data-market main org.jboss.threads JBoss Threads version 3.1.0.Final
+2022-06-14 10:45:44 INFO  datax-service-data-market main org.springframework.boot.web.embedded.undertow.UndertowWebServer Undertow started on port(s) 8822 (http)
+2022-06-14 10:45:44 INFO  datax-service-data-market main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8822
+2022-06-14 10:45:45 INFO  datax-service-data-market main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2022-06-14 10:45:45 INFO  datax-service-data-market main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2022-06-14 10:45:45 INFO  datax-service-data-market main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2022-06-14 10:45:45 INFO  datax-service-data-market main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getApiMaskByApiIdUsingGET_1
+2022-06-14 10:45:45 INFO  datax-service-data-market main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getDataApiByIdUsingGET_1
+2022-06-14 10:45:45 INFO  datax-service-data-market main cn.datax.service.data.market.DataxMarketApplication Started DataxMarketApplication in 21.188 seconds (JVM running for 22.629)
+2022-06-14 10:46:55 INFO  datax-service-data-market XNIO-1 task-1 io.undertow.servlet Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 10:46:55 INFO  datax-service-data-market XNIO-1 task-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-06-14 10:46:55 INFO  datax-service-data-market XNIO-1 task-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 29 ms
+2022-06-14 10:46:55 INFO  datax-service-data-market XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 getReleaseDataApiList 不鉴权处理
+2022-06-14 10:50:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 10:55:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:00:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:05:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:10:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:15:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:20:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:25:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:30:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:35:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:40:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:45:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:50:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:55:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:00:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:05:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:10:43 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:15:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:20:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:25:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:30:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:35:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:40:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:45:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:50:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:55:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:00:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:05:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:10:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:15:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:20:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:25:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:30:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:35:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:40:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:45:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:50:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:55:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:00:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:05:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:10:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:15:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:20:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:25:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:30:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:35:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:40:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:45:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:50:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:55:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:00:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:05:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:10:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:15:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:20:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:25:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:30:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:35:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:40:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:45:44 INFO  datax-service-data-market AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration

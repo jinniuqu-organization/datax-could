@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="datax-common-dictionary" />
+        <module name="email-service" />
+        <module name="data-masterdata-service-api" />
+        <module name="datax-common-log" />
+        <module name="data-market-service" />
+        <module name="datax-common-security" />
+        <module name="datax-tool-monitor" />
+        <module name="datax-common-jasperreport" />
+        <module name="file-service-api" />
+        <module name="workflow-service-api" />
+        <module name="datax-common-office" />
+        <module name="system-service-api" />
+        <module name="data-market-service-api" />
+        <module name="system-service" />
+        <module name="datax-common-qrcode" />
+        <module name="datax-eureka" />
+        <module name="data-market-service-mapping" />
+        <module name="codegen-service-api" />
+        <module name="quartz-service-api" />
+        <module name="data-metadata-service-console" />
+        <module name="datax-auth" />
+        <module name="data-visual-service" />
+        <module name="codegen-service" />
+        <module name="data-quality-service" />
+        <module name="data-quality-service-api" />
+        <module name="datax-common-redis" />
+        <module name="datax-gateway" />
+        <module name="data-standard-service" />
+        <module name="datax-common-core" />
+        <module name="file-service" />
+        <module name="quartz-service" />
+        <module name="datax-common-mybatis" />
+        <module name="data-masterdata-service" />
+        <module name="datax-config" />
+        <module name="data-standard-service-api" />
+        <module name="data-visual-service-api" />
+        <module name="data-metadata-service-api" />
+        <module name="datax-common-rabbitmq" />
+        <module name="datax-common-database" />
+        <module name="data-metadata-service" />
+        <module name="data-market-service-integration" />
+        <module name="workflow-service" />
+        <module name="email-service-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="codegen-service" target="1.8" />
+      <module name="codegen-service-api" target="1.8" />
+      <module name="codegen-service-parent" target="1.8" />
+      <module name="data-market-service" target="1.8" />
+      <module name="data-market-service-api" target="1.8" />
+      <module name="data-market-service-integration" target="1.8" />
+      <module name="data-market-service-mapping" target="1.8" />
+      <module name="data-market-service-parent" target="1.8" />
+      <module name="data-masterdata-service" target="1.8" />
+      <module name="data-masterdata-service-api" target="1.8" />
+      <module name="data-masterdata-service-parent" target="1.8" />
+      <module name="data-metadata-service" target="1.8" />
+      <module name="data-metadata-service-api" target="1.8" />
+      <module name="data-metadata-service-console" target="1.8" />
+      <module name="data-metadata-service-parent" target="1.8" />
+      <module name="data-quality-service" target="1.8" />
+      <module name="data-quality-service-api" target="1.8" />
+      <module name="data-quality-service-parent" target="1.8" />
+      <module name="data-standard-service" target="1.8" />
+      <module name="data-standard-service-api" target="1.8" />
+      <module name="data-standard-service-parent" target="1.8" />
+      <module name="data-visual-service" target="1.8" />
+      <module name="data-visual-service-api" target="1.8" />
+      <module name="data-visual-service-parent" target="1.8" />
+      <module name="datax-auth" target="1.8" />
+      <module name="datax-cloud" target="1.8" />
+      <module name="datax-common" target="1.8" />
+      <module name="datax-common-core" target="1.8" />
+      <module name="datax-common-database" target="1.8" />
+      <module name="datax-common-dictionary" target="1.8" />
+      <module name="datax-common-jasperreport" target="1.8" />
+      <module name="datax-common-log" target="1.8" />
+      <module name="datax-common-mybatis" target="1.8" />
+      <module name="datax-common-office" target="1.8" />
+      <module name="datax-common-qrcode" target="1.8" />
+      <module name="datax-common-rabbitmq" target="1.8" />
+      <module name="datax-common-redis" target="1.8" />
+      <module name="datax-common-security" target="1.8" />
+      <module name="datax-config" target="1.8" />
+      <module name="datax-eureka" target="1.8" />
+      <module name="datax-gateway" target="1.8" />
+      <module name="datax-modules" target="1.8" />
+      <module name="datax-tool-monitor" target="1.8" />
+      <module name="datax-tools" target="1.8" />
+      <module name="email-service" target="1.8" />
+      <module name="email-service-api" target="1.8" />
+      <module name="email-service-parent" target="1.8" />
+      <module name="file-service" target="1.8" />
+      <module name="file-service-api" target="1.8" />
+      <module name="file-service-parent" target="1.8" />
+      <module name="quartz-service" target="1.8" />
+      <module name="quartz-service-api" target="1.8" />
+      <module name="quartz-service-parent" target="1.8" />
+      <module name="system-service" target="1.8" />
+      <module name="system-service-api" target="1.8" />
+      <module name="system-service-parent" target="1.8" />
+      <module name="workflow-service" target="1.8" />
+      <module name="workflow-service-api" target="1.8" />
+      <module name="workflow-service-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="codegen-service" options="-parameters" />
+      <module name="codegen-service-api" options="-parameters" />
+      <module name="data-market-service" options="-parameters" />
+      <module name="data-market-service-api" options="-parameters" />
+      <module name="data-market-service-integration" options="-parameters" />
+      <module name="data-market-service-mapping" options="-parameters" />
+      <module name="data-masterdata-service" options="-parameters" />
+      <module name="data-masterdata-service-api" options="-parameters" />
+      <module name="data-metadata-service" options="-parameters" />
+      <module name="data-metadata-service-api" options="-parameters" />
+      <module name="data-metadata-service-console" options="-parameters" />
+      <module name="data-quality-service" options="-parameters" />
+      <module name="data-quality-service-api" options="-parameters" />
+      <module name="data-standard-service" options="-parameters" />
+      <module name="data-standard-service-api" options="-parameters" />
+      <module name="data-visual-service" options="-parameters" />
+      <module name="data-visual-service-api" options="-parameters" />
+      <module name="datax-auth" options="-parameters" />
+      <module name="datax-common-core" options="-parameters" />
+      <module name="datax-common-database" options="-parameters" />
+      <module name="datax-common-dictionary" options="-parameters" />
+      <module name="datax-common-jasperreport" options="-parameters" />
+      <module name="datax-common-log" options="-parameters" />
+      <module name="datax-common-mybatis" options="-parameters" />
+      <module name="datax-common-office" options="-parameters" />
+      <module name="datax-common-qrcode" options="-parameters" />
+      <module name="datax-common-rabbitmq" options="-parameters" />
+      <module name="datax-common-redis" options="-parameters" />
+      <module name="datax-common-security" options="-parameters" />
+      <module name="datax-config" options="-parameters" />
+      <module name="datax-eureka" options="-parameters" />
+      <module name="datax-gateway" options="-parameters" />
+      <module name="datax-tool-monitor" options="-parameters" />
+      <module name="email-service" options="-parameters" />
+      <module name="email-service-api" options="-parameters" />
+      <module name="file-service" options="-parameters" />
+      <module name="file-service-api" options="-parameters" />
+      <module name="quartz-service" options="-parameters" />
+      <module name="quartz-service-api" options="-parameters" />
+      <module name="system-service" options="-parameters" />
+      <module name="system-service-api" options="-parameters" />
+      <module name="workflow-service" options="-parameters" />
+      <module name="workflow-service-api" options="-parameters" />
+    </option>
+  </component>
+</project>

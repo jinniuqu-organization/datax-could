@@ -1,0 +1,101 @@
+2022-06-22 16:58:36 INFO  datax-service-workflow background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+2022-06-22 16:58:39 INFO  datax-service-workflow main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$3803e797] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-22 16:58:42 INFO  datax-service-workflow main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Fetching config from server at : http://localhost:8611/
+2022-06-22 16:58:46 INFO  datax-service-workflow main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Located environment: name=datax-service-workflow, profiles=[dev], label=null, version=null, state=null
+2022-06-22 16:58:46 INFO  datax-service-workflow main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-classpath:/config/datax-service-workflow-dev.yml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config/application-dev.yml'}]
+2022-06-22 16:58:46 INFO  datax-service-workflow main cn.datax.service.workflow.DataxWorkflowApplication The following profiles are active: dev
+2022-06-22 16:58:56 INFO  datax-service-workflow main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-22 16:58:56 INFO  datax-service-workflow main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-22 16:58:58 INFO  datax-service-workflow main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 1566ms. Found 0 Redis repository interfaces.
+2022-06-22 16:58:58 INFO  datax-service-workflow main org.springframework.cloud.context.scope.GenericScope BeanFactory id=e612686c-514d-3889-b8d4-9c184aaf1e23
+2022-06-22 16:58:59 INFO  datax-service-workflow main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-22 16:58:59 INFO  datax-service-workflow main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$abcec043] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-22 16:58:59 INFO  datax-service-workflow main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-22 16:58:59 INFO  datax-service-workflow main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3dd750ba' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-22 16:58:59 INFO  datax-service-workflow main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-22 16:59:01 INFO  datax-service-workflow main io.undertow.servlet Initializing Spring embedded WebApplicationContext
+2022-06-22 16:59:01 INFO  datax-service-workflow main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 15004 ms
+2022-06-22 16:59:01 INFO  datax-service-workflow main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-22 16:59:01 INFO  datax-service-workflow main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@33e4068
+2022-06-22 16:59:01 INFO  datax-service-workflow main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2022-06-22 16:59:02 INFO  datax-service-workflow main com.zaxxer.hikari.HikariDataSource mysql - Starting...
+2022-06-22 16:59:02 INFO  datax-service-workflow main com.zaxxer.hikari.HikariDataSource mysql - Start completed.
+2022-06-22 16:59:02 INFO  datax-service-workflow main com.zaxxer.hikari.HikariDataSource flowable - Starting...
+2022-06-22 16:59:02 INFO  datax-service-workflow main com.zaxxer.hikari.HikariDataSource flowable - Start completed.
+2022-06-22 16:59:02 INFO  datax-service-workflow main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - load a datasource named [flowable] success
+2022-06-22 16:59:02 INFO  datax-service-workflow main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - load a datasource named [mysql] success
+2022-06-22 16:59:02 INFO  datax-service-workflow main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [2] datasource,primary datasource named [mysql]
+2022-06-22 16:59:12 INFO  datax-service-workflow main org.flowable.spring.boot.eventregistry.EventRegistryAutoConfiguration No deployment resources were found for autodeployment
+2022-06-22 16:59:13 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration Found 2 Engine Configurators in total:
+2022-06-22 16:59:13 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-06-22 16:59:13 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000)
+2022-06-22 16:59:13 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-06-22 16:59:13 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000)
+2022-06-22 16:59:15 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-06-22 16:59:18 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor SELECT COUNT(*) FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOGLOCK
+2022-06-22 16:59:20 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor SELECT COUNT(*) FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOGLOCK
+2022-06-22 16:59:20 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor SELECT `LOCKED` FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOGLOCK WHERE ID=1
+2022-06-22 16:59:20 INFO  datax-service-workflow main liquibase.lockservice.StandardLockService Successfully acquired change log lock
+2022-06-22 16:59:23 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor SELECT MD5SUM FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2022-06-22 16:59:23 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor SELECT COUNT(*) FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOG
+2022-06-22 16:59:23 INFO  datax-service-workflow main liquibase.changelog.StandardChangeLogHistoryService Reading from data_cloud_flowable.FLW_EV_DATABASECHANGELOG
+2022-06-22 16:59:23 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor SELECT * FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2022-06-22 16:59:23 INFO  datax-service-workflow main liquibase.lockservice.StandardLockService Successfully released change log lock
+2022-06-22 16:59:23 INFO  datax-service-workflow main org.flowable.eventregistry.impl.EventRegistryEngineImpl EventRegistryEngine default created
+2022-06-22 16:59:23 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000)
+2022-06-22 16:59:24 INFO  datax-service-workflow main org.flowable.idm.engine.impl.IdmEngineImpl IdmEngine default created
+2022-06-22 16:59:24 INFO  datax-service-workflow main org.flowable.engine.impl.ProcessEngineImpl ProcessEngine default created
+2022-06-22 16:59:24 INFO  datax-service-workflow main org.flowable.engine.impl.cmd.ValidateV5EntitiesCmd Total of v5 deployments found: 0
+2022-06-22 16:59:26 INFO  datax-service-workflow main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-06-22 16:59:27 INFO  datax-service-workflow main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-22 16:59:27 INFO  datax-service-workflow main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-22 16:59:27 INFO  datax-service-workflow main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-22 16:59:30 INFO  datax-service-workflow main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 9e1f5288-60d2-4d67-bf22-fab17d95ec6f
+
+2022-06-22 16:59:31 INFO  datax-service-workflow main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76be352d, org.springframework.security.web.context.SecurityContextPersistenceFilter@170dbf94, org.springframework.security.web.header.HeaderWriterFilter@6b437b24, org.springframework.security.web.authentication.logout.LogoutFilter@7d03ce92, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@d7d2dd9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e6311b2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40151a6b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72364ff1, org.springframework.security.web.session.SessionManagementFilter@729c251b, org.springframework.security.web.access.ExceptionTranslationFilter@77228300, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@630bd6c1]
+2022-06-22 16:59:31 INFO  datax-service-workflow main org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses Jersey
+2022-06-22 16:59:33 INFO  datax-service-workflow main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2022-06-22 16:59:33 INFO  datax-service-workflow main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2022-06-22 16:59:33 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2022-06-22 16:59:33 INFO  datax-service-workflow main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2022-06-22 16:59:33 INFO  datax-service-workflow main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2022-06-22 16:59:34 INFO  datax-service-workflow main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2022-06-22 16:59:34 INFO  datax-service-workflow main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2022-06-22 16:59:36 INFO  datax-service-workflow main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-22 16:59:37 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2022-06-22 16:59:37 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2022-06-22 16:59:37 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2022-06-22 16:59:37 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Application is null : false
+2022-06-22 16:59:37 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2022-06-22 16:59:37 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2022-06-22 16:59:37 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2022-06-22 16:59:37 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient The response status is 200
+2022-06-22 16:59:37 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2022-06-22 16:59:37 INFO  datax-service-workflow main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-06-22 16:59:37 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1655888377566 with initial instances count: 5
+2022-06-22 16:59:37 INFO  datax-service-workflow main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application DATAX-SERVICE-WORKFLOW with eureka with status UP
+2022-06-22 16:59:37 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1655888377576, current=UP, previous=STARTING]
+2022-06-22 16:59:37 INFO  datax-service-workflow DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-WORKFLOW/li20220331:datax-service-workflow:8814: registering service...
+2022-06-22 16:59:37 INFO  datax-service-workflow main io.undertow starting server: Undertow - 2.1.4.Final
+2022-06-22 16:59:37 INFO  datax-service-workflow main org.xnio XNIO version 3.8.0.Final
+2022-06-22 16:59:37 INFO  datax-service-workflow main org.xnio.nio XNIO NIO Implementation Version 3.8.0.Final
+2022-06-22 16:59:37 INFO  datax-service-workflow DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-WORKFLOW/li20220331:datax-service-workflow:8814 - registration status: 204
+2022-06-22 16:59:37 INFO  datax-service-workflow main org.jboss.threads JBoss Threads version 3.1.0.Final
+2022-06-22 16:59:37 INFO  datax-service-workflow main org.springframework.boot.web.embedded.undertow.UndertowWebServer Undertow started on port(s) 8814 (http)
+2022-06-22 16:59:37 INFO  datax-service-workflow main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8814
+2022-06-22 16:59:39 INFO  datax-service-workflow main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2022-06-22 16:59:39 INFO  datax-service-workflow main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2022-06-22 16:59:40 INFO  datax-service-workflow main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2022-06-22 16:59:40 INFO  datax-service-workflow main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: activateUsingPUT_1
+2022-06-22 16:59:40 INFO  datax-service-workflow main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deleteUsingDELETE_1
+2022-06-22 16:59:40 INFO  datax-service-workflow main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: suspendUsingPUT_1
+2022-06-22 16:59:40 INFO  datax-service-workflow main cn.datax.service.workflow.DataxWorkflowApplication Started DataxWorkflowApplication in 71.612 seconds (JVM running for 73.791)
+2022-06-22 17:04:37 INFO  datax-service-workflow AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-22 17:09:37 INFO  datax-service-workflow AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-22 17:14:37 INFO  datax-service-workflow AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-22 17:19:37 INFO  datax-service-workflow AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-22 17:24:37 INFO  datax-service-workflow AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-22 17:29:37 INFO  datax-service-workflow AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-22 17:34:37 INFO  datax-service-workflow AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration

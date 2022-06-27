@@ -1,0 +1,164 @@
+2022-06-13 22:18:39 INFO  datax-service-workflow background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+2022-06-13 22:18:40 INFO  datax-service-workflow main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$445fc899] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 22:18:41 INFO  datax-service-workflow main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Fetching config from server at : http://localhost:8611/
+2022-06-13 22:18:42 INFO  datax-service-workflow main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Located environment: name=datax-service-workflow, profiles=[dev], label=null, version=null, state=null
+2022-06-13 22:18:42 INFO  datax-service-workflow main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-classpath:/config/datax-service-workflow-dev.yml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config/application-dev.yml'}]
+2022-06-13 22:18:42 INFO  datax-service-workflow main cn.datax.service.workflow.DataxWorkflowApplication The following profiles are active: dev
+2022-06-13 22:18:44 INFO  datax-service-workflow main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-13 22:18:44 INFO  datax-service-workflow main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-13 22:18:44 INFO  datax-service-workflow main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2022-06-13 22:18:45 INFO  datax-service-workflow main org.springframework.cloud.context.scope.GenericScope BeanFactory id=e612686c-514d-3889-b8d4-9c184aaf1e23
+2022-06-13 22:18:45 INFO  datax-service-workflow main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 22:18:45 INFO  datax-service-workflow main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$b82aa145] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 22:18:45 INFO  datax-service-workflow main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 22:18:46 INFO  datax-service-workflow main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7d5ef1c3' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 22:18:46 INFO  datax-service-workflow main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 22:18:47 INFO  datax-service-workflow main io.undertow.servlet Initializing Spring embedded WebApplicationContext
+2022-06-13 22:18:47 INFO  datax-service-workflow main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4590 ms
+2022-06-13 22:18:47 INFO  datax-service-workflow main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-13 22:18:47 INFO  datax-service-workflow main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@33e4068
+2022-06-13 22:18:47 INFO  datax-service-workflow main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2022-06-13 22:18:48 INFO  datax-service-workflow main com.zaxxer.hikari.HikariDataSource mysql - Starting...
+2022-06-13 22:18:48 INFO  datax-service-workflow main com.zaxxer.hikari.HikariDataSource mysql - Start completed.
+2022-06-13 22:18:48 INFO  datax-service-workflow main com.zaxxer.hikari.HikariDataSource flowable - Starting...
+2022-06-13 22:18:48 INFO  datax-service-workflow main com.zaxxer.hikari.HikariDataSource flowable - Start completed.
+2022-06-13 22:18:48 INFO  datax-service-workflow main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - load a datasource named [flowable] success
+2022-06-13 22:18:48 INFO  datax-service-workflow main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - load a datasource named [mysql] success
+2022-06-13 22:18:48 INFO  datax-service-workflow main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [2] datasource,primary datasource named [mysql]
+2022-06-13 22:18:50 INFO  datax-service-workflow main org.flowable.spring.boot.eventregistry.EventRegistryAutoConfiguration No deployment resources were found for autodeployment
+2022-06-13 22:18:51 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration Found 2 Engine Configurators in total:
+2022-06-13 22:18:51 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-06-13 22:18:51 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000)
+2022-06-13 22:18:51 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-06-13 22:18:51 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000)
+2022-06-13 22:18:53 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-06-13 22:18:53 INFO  datax-service-workflow main org.flowable.common.engine.impl.db.CommonDbSchemaManager performing create on common with resource org/flowable/common/db/create/flowable.mysql.create.common.sql
+2022-06-13 22:18:53 INFO  datax-service-workflow main org.flowable.common.engine.impl.db.CommonDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:18:56 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor SELECT COUNT(*) FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOGLOCK
+2022-06-13 22:18:56 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor CREATE TABLE data_cloud_flowable.FLW_EV_DATABASECHANGELOGLOCK (ID INT NOT NULL, `LOCKED` BIT(1) NOT NULL, LOCKGRANTED datetime NULL, LOCKEDBY VARCHAR(255) NULL, CONSTRAINT PK_FLW_EV_DATABASECHANGELOGLOCK PRIMARY KEY (ID))
+2022-06-13 22:18:56 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor SELECT COUNT(*) FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOGLOCK
+2022-06-13 22:18:56 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor DELETE FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOGLOCK
+2022-06-13 22:18:56 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor INSERT INTO data_cloud_flowable.FLW_EV_DATABASECHANGELOGLOCK (ID, `LOCKED`) VALUES (1, 0)
+2022-06-13 22:18:56 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor SELECT `LOCKED` FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOGLOCK WHERE ID=1
+2022-06-13 22:18:56 INFO  datax-service-workflow main liquibase.lockservice.StandardLockService Successfully acquired change log lock
+2022-06-13 22:18:57 INFO  datax-service-workflow main liquibase.changelog.StandardChangeLogHistoryService Creating database history table with name: data_cloud_flowable.FLW_EV_DATABASECHANGELOG
+2022-06-13 22:18:57 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor CREATE TABLE data_cloud_flowable.FLW_EV_DATABASECHANGELOG (ID VARCHAR(255) NOT NULL, AUTHOR VARCHAR(255) NOT NULL, FILENAME VARCHAR(255) NOT NULL, DATEEXECUTED datetime NOT NULL, ORDEREXECUTED INT NOT NULL, EXECTYPE VARCHAR(10) NOT NULL, MD5SUM VARCHAR(35) NULL, `DESCRIPTION` VARCHAR(255) NULL, COMMENTS VARCHAR(255) NULL, TAG VARCHAR(255) NULL, LIQUIBASE VARCHAR(20) NULL, CONTEXTS VARCHAR(255) NULL, LABELS VARCHAR(255) NULL, DEPLOYMENT_ID VARCHAR(10) NULL)
+2022-06-13 22:18:58 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor SELECT COUNT(*) FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOG
+2022-06-13 22:18:58 INFO  datax-service-workflow main liquibase.changelog.StandardChangeLogHistoryService Reading from data_cloud_flowable.FLW_EV_DATABASECHANGELOG
+2022-06-13 22:18:58 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor SELECT * FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2022-06-13 22:18:58 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor SELECT COUNT(*) FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOGLOCK
+2022-06-13 22:18:58 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor CREATE TABLE data_cloud_flowable.FLW_EVENT_DEPLOYMENT (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, CATEGORY_ VARCHAR(255) NULL, DEPLOY_TIME_ datetime(3) NULL, TENANT_ID_ VARCHAR(255) NULL, PARENT_DEPLOYMENT_ID_ VARCHAR(255) NULL, CONSTRAINT PK_FLW_EVENT_DEPLOYMENT PRIMARY KEY (ID_))
+2022-06-13 22:18:58 INFO  datax-service-workflow main liquibase.changelog.ChangeSet Table FLW_EVENT_DEPLOYMENT created
+2022-06-13 22:18:58 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor CREATE TABLE data_cloud_flowable.FLW_EVENT_RESOURCE (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, DEPLOYMENT_ID_ VARCHAR(255) NULL, RESOURCE_BYTES_ LONGBLOB NULL, CONSTRAINT PK_FLW_EVENT_RESOURCE PRIMARY KEY (ID_))
+2022-06-13 22:18:58 INFO  datax-service-workflow main liquibase.changelog.ChangeSet Table FLW_EVENT_RESOURCE created
+2022-06-13 22:18:58 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor CREATE TABLE data_cloud_flowable.FLW_EVENT_DEFINITION (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, VERSION_ INT NULL, KEY_ VARCHAR(255) NULL, CATEGORY_ VARCHAR(255) NULL, DEPLOYMENT_ID_ VARCHAR(255) NULL, TENANT_ID_ VARCHAR(255) NULL, RESOURCE_NAME_ VARCHAR(255) NULL, DESCRIPTION_ VARCHAR(255) NULL, CONSTRAINT PK_FLW_EVENT_DEFINITION PRIMARY KEY (ID_))
+2022-06-13 22:18:59 INFO  datax-service-workflow main liquibase.changelog.ChangeSet Table FLW_EVENT_DEFINITION created
+2022-06-13 22:18:59 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor CREATE UNIQUE INDEX ACT_IDX_EVENT_DEF_UNIQ ON data_cloud_flowable.FLW_EVENT_DEFINITION(KEY_, VERSION_, TENANT_ID_)
+2022-06-13 22:18:59 INFO  datax-service-workflow main liquibase.changelog.ChangeSet Index ACT_IDX_EVENT_DEF_UNIQ created
+2022-06-13 22:18:59 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor CREATE TABLE data_cloud_flowable.FLW_CHANNEL_DEFINITION (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, VERSION_ INT NULL, KEY_ VARCHAR(255) NULL, CATEGORY_ VARCHAR(255) NULL, DEPLOYMENT_ID_ VARCHAR(255) NULL, CREATE_TIME_ datetime(3) NULL, TENANT_ID_ VARCHAR(255) NULL, RESOURCE_NAME_ VARCHAR(255) NULL, DESCRIPTION_ VARCHAR(255) NULL, CONSTRAINT PK_FLW_CHANNEL_DEFINITION PRIMARY KEY (ID_))
+2022-06-13 22:18:59 INFO  datax-service-workflow main liquibase.changelog.ChangeSet Table FLW_CHANNEL_DEFINITION created
+2022-06-13 22:18:59 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor CREATE UNIQUE INDEX ACT_IDX_CHANNEL_DEF_UNIQ ON data_cloud_flowable.FLW_CHANNEL_DEFINITION(KEY_, VERSION_, TENANT_ID_)
+2022-06-13 22:19:00 INFO  datax-service-workflow main liquibase.changelog.ChangeSet Index ACT_IDX_CHANNEL_DEF_UNIQ created
+2022-06-13 22:19:00 INFO  datax-service-workflow main liquibase.changelog.ChangeSet ChangeSet org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml::1::flowable ran successfully in 1823ms
+2022-06-13 22:19:00 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor SELECT MAX(ORDEREXECUTED) FROM data_cloud_flowable.FLW_EV_DATABASECHANGELOG
+2022-06-13 22:19:00 INFO  datax-service-workflow main liquibase.executor.jvm.JdbcExecutor INSERT INTO data_cloud_flowable.FLW_EV_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('1', 'flowable', 'org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml', NOW(), 1, '8:1b0c48c9cf7945be799d868a2626d687', 'createTable tableName=FLW_EVENT_DEPLOYMENT; createTable tableName=FLW_EVENT_RESOURCE; createTable tableName=FLW_EVENT_DEFINITION; createIndex indexName=ACT_IDX_EVENT_DEF_UNIQ, tableName=FLW_EVENT_DEFINITION; createTable tableName=FLW_CHANNEL_DEFIN...', '', 'EXECUTED', NULL, NULL, '3.8.9', '5129938197')
+2022-06-13 22:19:00 INFO  datax-service-workflow main liquibase.lockservice.StandardLockService Successfully released change log lock
+2022-06-13 22:19:00 INFO  datax-service-workflow main org.flowable.eventregistry.impl.EventRegistryEngineImpl EventRegistryEngine default created
+2022-06-13 22:19:00 INFO  datax-service-workflow main org.flowable.spring.SpringProcessEngineConfiguration Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000)
+2022-06-13 22:19:00 INFO  datax-service-workflow main org.flowable.idm.engine.impl.db.IdmDbSchemaManager performing create on identity with resource org/flowable/idm/db/create/flowable.mysql.create.identity.sql
+2022-06-13 22:19:00 INFO  datax-service-workflow main org.flowable.idm.engine.impl.db.IdmDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:19:06 INFO  datax-service-workflow main org.flowable.idm.engine.impl.IdmEngineImpl IdmEngine default created
+2022-06-13 22:19:06 INFO  datax-service-workflow main org.flowable.identitylink.service.impl.db.IdentityLinkDbSchemaManager performing create on identitylink with resource org/flowable/identitylink/service/db/create/flowable.mysql.create.identitylink.sql
+2022-06-13 22:19:06 INFO  datax-service-workflow main org.flowable.identitylink.service.impl.db.IdentityLinkDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:19:08 INFO  datax-service-workflow main org.flowable.identitylink.service.impl.db.IdentityLinkDbSchemaManager performing create on identitylink.history with resource org/flowable/identitylink/service/db/create/flowable.mysql.create.identitylink.history.sql
+2022-06-13 22:19:08 INFO  datax-service-workflow main org.flowable.identitylink.service.impl.db.IdentityLinkDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:19:09 INFO  datax-service-workflow main org.flowable.entitylink.service.impl.db.EntityLinkDbSchemaManager performing create on entitylink with resource org/flowable/entitylink/service/db/create/flowable.mysql.create.entitylink.sql
+2022-06-13 22:19:09 INFO  datax-service-workflow main org.flowable.entitylink.service.impl.db.EntityLinkDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:19:10 INFO  datax-service-workflow main org.flowable.entitylink.service.impl.db.EntityLinkDbSchemaManager performing create on entitylink.history with resource org/flowable/entitylink/service/db/create/flowable.mysql.create.entitylink.history.sql
+2022-06-13 22:19:10 INFO  datax-service-workflow main org.flowable.entitylink.service.impl.db.EntityLinkDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:19:11 INFO  datax-service-workflow main org.flowable.eventsubscription.service.impl.db.EventSubscriptionDbSchemaManager performing create on eventsubscription with resource org/flowable/eventsubscription/service/db/create/flowable.mysql.create.eventsubscription.sql
+2022-06-13 22:19:11 INFO  datax-service-workflow main org.flowable.eventsubscription.service.impl.db.EventSubscriptionDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:19:11 INFO  datax-service-workflow main org.flowable.task.service.impl.db.TaskDbSchemaManager performing create on task with resource org/flowable/task/service/db/create/flowable.mysql.create.task.sql
+2022-06-13 22:19:11 INFO  datax-service-workflow main org.flowable.task.service.impl.db.TaskDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:19:13 INFO  datax-service-workflow main org.flowable.task.service.impl.db.TaskDbSchemaManager performing create on task.history with resource org/flowable/task/service/db/create/flowable.mysql.create.task.history.sql
+2022-06-13 22:19:13 INFO  datax-service-workflow main org.flowable.task.service.impl.db.TaskDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:19:15 INFO  datax-service-workflow main org.flowable.variable.service.impl.db.VariableDbSchemaManager performing create on variable with resource org/flowable/variable/service/db/create/flowable.mysql.create.variable.sql
+2022-06-13 22:19:15 INFO  datax-service-workflow main org.flowable.variable.service.impl.db.VariableDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:19:17 INFO  datax-service-workflow main org.flowable.variable.service.impl.db.VariableDbSchemaManager performing create on variable.history with resource org/flowable/variable/service/db/create/flowable.mysql.create.variable.history.sql
+2022-06-13 22:19:17 INFO  datax-service-workflow main org.flowable.variable.service.impl.db.VariableDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:19:18 INFO  datax-service-workflow main org.flowable.job.service.impl.db.JobDbSchemaManager performing create on job with resource org/flowable/job/service/db/create/flowable.mysql.create.job.sql
+2022-06-13 22:19:18 INFO  datax-service-workflow main org.flowable.job.service.impl.db.JobDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:19:36 INFO  datax-service-workflow main org.flowable.batch.service.impl.db.BatchDbSchemaManager performing create on batch with resource org/flowable/batch/service/db/create/flowable.mysql.create.batch.sql
+2022-06-13 22:19:36 INFO  datax-service-workflow main org.flowable.batch.service.impl.db.BatchDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:19:39 INFO  datax-service-workflow main org.flowable.engine.impl.db.ProcessDbSchemaManager performing create on engine with resource org/flowable/db/create/flowable.mysql.create.engine.sql
+2022-06-13 22:19:39 INFO  datax-service-workflow main org.flowable.engine.impl.db.ProcessDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:20:29 INFO  datax-service-workflow main org.flowable.engine.impl.db.ProcessDbSchemaManager performing create on history with resource org/flowable/db/create/flowable.mysql.create.history.sql
+2022-06-13 22:20:29 INFO  datax-service-workflow main org.flowable.engine.impl.db.ProcessDbSchemaManager Found MySQL: majorVersion=8 minorVersion=0
+2022-06-13 22:20:38 INFO  datax-service-workflow main org.flowable.engine.impl.ProcessEngineImpl ProcessEngine default created
+2022-06-13 22:20:38 INFO  datax-service-workflow main org.flowable.engine.impl.cmd.ValidateV5EntitiesCmd Total of v5 deployments found: 0
+2022-06-13 22:20:41 INFO  datax-service-workflow main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-06-13 22:20:41 INFO  datax-service-workflow main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-13 22:20:42 INFO  datax-service-workflow main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-13 22:20:42 INFO  datax-service-workflow main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-13 22:20:43 INFO  datax-service-workflow main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: abc39f8b-be62-4c51-b79e-74da794f7f9c
+
+2022-06-13 22:20:43 INFO  datax-service-workflow main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6393a745, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c0c1730, org.springframework.security.web.header.HeaderWriterFilter@9fb4031, org.springframework.security.web.authentication.logout.LogoutFilter@3b0d4f43, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@10958e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20d4fdff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30f13b3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@545390ab, org.springframework.security.web.session.SessionManagementFilter@3bbf850b, org.springframework.security.web.access.ExceptionTranslationFilter@4aa20aac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d62c84]
+2022-06-13 22:20:43 INFO  datax-service-workflow main org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses Jersey
+2022-06-13 22:20:45 INFO  datax-service-workflow main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2022-06-13 22:20:45 INFO  datax-service-workflow main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2022-06-13 22:20:45 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2022-06-13 22:20:45 INFO  datax-service-workflow main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2022-06-13 22:20:45 INFO  datax-service-workflow main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2022-06-13 22:20:45 INFO  datax-service-workflow main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2022-06-13 22:20:45 INFO  datax-service-workflow main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2022-06-13 22:20:46 INFO  datax-service-workflow main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 22:20:46 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2022-06-13 22:20:46 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2022-06-13 22:20:46 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2022-06-13 22:20:46 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Application is null : false
+2022-06-13 22:20:46 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2022-06-13 22:20:46 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2022-06-13 22:20:46 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2022-06-13 22:20:46 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient The response status is 200
+2022-06-13 22:20:46 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2022-06-13 22:20:46 INFO  datax-service-workflow main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-06-13 22:20:47 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1655130046920 with initial instances count: 7
+2022-06-13 22:20:47 INFO  datax-service-workflow main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application DATAX-SERVICE-WORKFLOW with eureka with status UP
+2022-06-13 22:20:47 INFO  datax-service-workflow main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1655130047010, current=UP, previous=STARTING]
+2022-06-13 22:20:47 INFO  datax-service-workflow DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-WORKFLOW/li20220331.mshome.net:datax-service-workflow:8814: registering service...
+2022-06-13 22:20:47 INFO  datax-service-workflow main io.undertow starting server: Undertow - 2.1.4.Final
+2022-06-13 22:20:47 INFO  datax-service-workflow main org.xnio XNIO version 3.8.0.Final
+2022-06-13 22:20:47 INFO  datax-service-workflow DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-WORKFLOW/li20220331.mshome.net:datax-service-workflow:8814 - registration status: 204
+2022-06-13 22:20:47 INFO  datax-service-workflow main org.xnio.nio XNIO NIO Implementation Version 3.8.0.Final
+2022-06-13 22:20:47 INFO  datax-service-workflow main org.jboss.threads JBoss Threads version 3.1.0.Final
+2022-06-13 22:20:47 INFO  datax-service-workflow main org.springframework.boot.web.embedded.undertow.UndertowWebServer Undertow started on port(s) 8814 (http)
+2022-06-13 22:20:47 INFO  datax-service-workflow main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8814
+2022-06-13 22:20:48 INFO  datax-service-workflow main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2022-06-13 22:20:48 INFO  datax-service-workflow main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2022-06-13 22:20:48 INFO  datax-service-workflow main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2022-06-13 22:20:48 INFO  datax-service-workflow main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: activateUsingPUT_1
+2022-06-13 22:20:48 INFO  datax-service-workflow main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deleteUsingDELETE_1
+2022-06-13 22:20:48 INFO  datax-service-workflow main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: suspendUsingPUT_1
+2022-06-13 22:20:49 INFO  datax-service-workflow main cn.datax.service.workflow.DataxWorkflowApplication Started DataxWorkflowApplication in 132.144 seconds (JVM running for 134.302)
+2022-06-13 22:21:00 INFO  datax-service-workflow XNIO-1 task-1 io.undertow.servlet Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-13 22:21:00 INFO  datax-service-workflow XNIO-1 task-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-06-13 22:21:00 INFO  datax-service-workflow XNIO-1 task-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 10 ms
+2022-06-13 22:21:00 INFO  datax-service-workflow XNIO-1 task-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]
+2022-06-13 22:21:04 INFO  datax-service-workflow XNIO-1 task-1 org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Fetching config from server at : http://localhost:8611/
+2022-06-13 22:21:05 INFO  datax-service-workflow XNIO-1 task-1 org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Located environment: name=datax-service-workflow, profiles=[dev], label=null, version=null, state=null
+2022-06-13 22:21:21 INFO  datax-service-workflow XNIO-1 task-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]
+2022-06-13 22:21:41 INFO  datax-service-workflow XNIO-1 task-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]
+2022-06-13 22:22:01 INFO  datax-service-workflow XNIO-1 task-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]
+2022-06-13 22:22:21 INFO  datax-service-workflow XNIO-1 task-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]
+2022-06-13 22:22:41 INFO  datax-service-workflow XNIO-1 task-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]
+2022-06-13 22:23:01 INFO  datax-service-workflow XNIO-1 task-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]
+2022-06-13 22:23:21 INFO  datax-service-workflow XNIO-1 task-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]
+2022-06-13 22:24:11 INFO  datax-service-workflow XNIO-1 task-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]
+2022-06-13 22:24:31 INFO  datax-service-workflow XNIO-1 task-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]
+2022-06-13 22:24:51 INFO  datax-service-workflow XNIO-1 task-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]
+2022-06-13 22:25:11 INFO  datax-service-workflow XNIO-1 task-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]
+2022-06-13 22:25:31 INFO  datax-service-workflow XNIO-1 task-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]
+2022-06-13 22:25:46 INFO  datax-service-workflow AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 22:25:51 INFO  datax-service-workflow XNIO-1 task-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [localhost:5672]

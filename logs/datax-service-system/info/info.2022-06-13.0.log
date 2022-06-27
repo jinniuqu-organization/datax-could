@@ -1,0 +1,194 @@
+2022-06-13 20:00:10 INFO  datax-service-system background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+2022-06-13 20:00:12 INFO  datax-service-system main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Fetching config from server at : http://localhost:8611/
+2022-06-13 20:00:13 INFO  datax-service-system main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Located environment: name=datax-service-system, profiles=[dev], label=null, version=null, state=null
+2022-06-13 20:00:13 INFO  datax-service-system main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-classpath:/config/datax-service-system-dev.yml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config/application-dev.yml'}]
+2022-06-13 20:00:13 INFO  datax-service-system main cn.datax.service.system.DataxSystemApplication The following profiles are active: dev
+2022-06-13 20:00:15 INFO  datax-service-system main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-13 20:00:15 INFO  datax-service-system main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-13 20:00:15 INFO  datax-service-system main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 34ms. Found 0 Redis repository interfaces.
+2022-06-13 20:00:16 INFO  datax-service-system main org.springframework.cloud.context.scope.GenericScope BeanFactory id=6962b505-eb82-35aa-9b99-a4a25b741627
+2022-06-13 20:00:16 INFO  datax-service-system main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 20:00:16 INFO  datax-service-system main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$34e142be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 20:00:16 INFO  datax-service-system main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 20:00:17 INFO  datax-service-system main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@b56ec6c' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 20:00:17 INFO  datax-service-system main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 20:00:18 INFO  datax-service-system main io.undertow.servlet Initializing Spring embedded WebApplicationContext
+2022-06-13 20:00:18 INFO  datax-service-system main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4219 ms
+2022-06-13 20:00:18 INFO  datax-service-system main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-13 20:00:18 INFO  datax-service-system main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@14e3d439
+2022-06-13 20:00:18 INFO  datax-service-system main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2022-06-13 20:00:18 INFO  datax-service-system main com.zaxxer.hikari.HikariDataSource mysql - Starting...
+2022-06-13 20:00:19 INFO  datax-service-system main com.zaxxer.hikari.HikariDataSource mysql - Start completed.
+2022-06-13 20:00:19 INFO  datax-service-system main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - load a datasource named [mysql] success
+2022-06-13 20:00:19 INFO  datax-service-system main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [mysql]
+2022-06-13 20:00:24 INFO  datax-service-system main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-06-13 20:00:24 INFO  datax-service-system main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2022-06-13 20:00:24 INFO  datax-service-system main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'taskExecutor'
+2022-06-13 20:00:24 INFO  datax-service-system main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-13 20:00:24 INFO  datax-service-system main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-13 20:00:25 INFO  datax-service-system main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 5c444c5f-1b52-474d-bc27-a1857e4c664c
+
+2022-06-13 20:00:25 INFO  datax-service-system main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@133e7789, org.springframework.security.web.context.SecurityContextPersistenceFilter@630e5803, org.springframework.security.web.header.HeaderWriterFilter@3b256d50, org.springframework.security.web.authentication.logout.LogoutFilter@3bbab7c7, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@2dba6013, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b810b54, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c3d46d6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62f47cac, org.springframework.security.web.session.SessionManagementFilter@745d399a, org.springframework.security.web.access.ExceptionTranslationFilter@118932fe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24a024c8]
+2022-06-13 20:00:27 INFO  datax-service-system main org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses Jersey
+2022-06-13 20:00:27 INFO  datax-service-system main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2022-06-13 20:00:27 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2022-06-13 20:00:27 INFO  datax-service-system main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2022-06-13 20:00:27 INFO  datax-service-system main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2022-06-13 20:00:27 INFO  datax-service-system main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2022-06-13 20:00:27 INFO  datax-service-system main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2022-06-13 20:00:27 INFO  datax-service-system main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:00:28 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2022-06-13 20:00:28 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2022-06-13 20:00:28 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2022-06-13 20:00:28 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Application is null : false
+2022-06-13 20:00:28 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2022-06-13 20:00:28 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2022-06-13 20:00:28 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2022-06-13 20:00:28 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient The response status is 200
+2022-06-13 20:00:28 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2022-06-13 20:00:28 INFO  datax-service-system main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-06-13 20:00:28 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1655121628842 with initial instances count: 3
+2022-06-13 20:00:28 INFO  datax-service-system main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application DATAX-SERVICE-SYSTEM with eureka with status UP
+2022-06-13 20:00:28 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1655121628849, current=UP, previous=STARTING]
+2022-06-13 20:00:28 INFO  datax-service-system DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-SYSTEM/li20220331.mshome.net:datax-service-system:8810: registering service...
+2022-06-13 20:00:28 INFO  datax-service-system main io.undertow starting server: Undertow - 2.1.4.Final
+2022-06-13 20:00:28 INFO  datax-service-system main org.xnio XNIO version 3.8.0.Final
+2022-06-13 20:00:28 INFO  datax-service-system main org.xnio.nio XNIO NIO Implementation Version 3.8.0.Final
+2022-06-13 20:00:28 INFO  datax-service-system DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-SYSTEM/li20220331.mshome.net:datax-service-system:8810 - registration status: 204
+2022-06-13 20:00:28 INFO  datax-service-system main org.jboss.threads JBoss Threads version 3.1.0.Final
+2022-06-13 20:00:28 INFO  datax-service-system main org.springframework.boot.web.embedded.undertow.UndertowWebServer Undertow started on port(s) 8810 (http)
+2022-06-13 20:00:28 INFO  datax-service-system main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8810
+2022-06-13 20:00:29 INFO  datax-service-system main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2022-06-13 20:00:29 INFO  datax-service-system main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2022-06-13 20:00:30 INFO  datax-service-system main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2022-06-13 20:00:30 INFO  datax-service-system main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deletePostBatchUsingDELETE_1
+2022-06-13 20:00:30 INFO  datax-service-system main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getPostListUsingGET_1
+2022-06-13 20:00:30 INFO  datax-service-system main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deletePostBatchUsingDELETE_2
+2022-06-13 20:00:30 INFO  datax-service-system main cn.datax.service.system.DataxSystemApplication Started DataxSystemApplication in 21.649 seconds (JVM running for 23.485)
+2022-06-13 20:05:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:10:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:15:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:20:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:25:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:30:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:30:50 INFO  datax-service-system XNIO-1 task-1 io.undertow.servlet Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-13 20:30:50 INFO  datax-service-system XNIO-1 task-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-06-13 20:30:50 INFO  datax-service-system XNIO-1 task-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 276 ms
+2022-06-13 20:30:50 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 20:31:45 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 20:31:50 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 20:33:55 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 20:35:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:35:53 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 20:36:00 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 20:36:17 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 20:36:57 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 20:40:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:45:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:50:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:55:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:00:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:05:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:10:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:15:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:20:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:25:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:30:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:35:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:40:28 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:49:52 INFO  datax-service-system background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+2022-06-13 21:49:54 INFO  datax-service-system main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Fetching config from server at : http://localhost:8611/
+2022-06-13 21:49:55 INFO  datax-service-system main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Located environment: name=datax-service-system, profiles=[dev], label=null, version=null, state=null
+2022-06-13 21:49:55 INFO  datax-service-system main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-classpath:/config/datax-service-system-dev.yml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config/application-dev.yml'}]
+2022-06-13 21:49:55 INFO  datax-service-system main cn.datax.service.system.DataxSystemApplication The following profiles are active: dev
+2022-06-13 21:49:57 INFO  datax-service-system main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-13 21:49:57 INFO  datax-service-system main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-13 21:49:57 INFO  datax-service-system main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+2022-06-13 21:49:57 INFO  datax-service-system main org.springframework.cloud.context.scope.GenericScope BeanFactory id=6962b505-eb82-35aa-9b99-a4a25b741627
+2022-06-13 21:49:58 INFO  datax-service-system main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 21:49:58 INFO  datax-service-system main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e9b00519] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 21:49:58 INFO  datax-service-system main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 21:49:58 INFO  datax-service-system main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5c53c235' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 21:49:58 INFO  datax-service-system main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 21:49:59 INFO  datax-service-system main io.undertow.servlet Initializing Spring embedded WebApplicationContext
+2022-06-13 21:49:59 INFO  datax-service-system main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4160 ms
+2022-06-13 21:49:59 INFO  datax-service-system main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-13 21:49:59 INFO  datax-service-system main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@11bdab37
+2022-06-13 21:50:00 INFO  datax-service-system main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2022-06-13 21:50:00 INFO  datax-service-system main com.zaxxer.hikari.HikariDataSource mysql - Starting...
+2022-06-13 21:50:00 INFO  datax-service-system main com.zaxxer.hikari.HikariDataSource mysql - Start completed.
+2022-06-13 21:50:00 INFO  datax-service-system main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - load a datasource named [mysql] success
+2022-06-13 21:50:00 INFO  datax-service-system main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [mysql]
+2022-06-13 21:50:06 INFO  datax-service-system main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-06-13 21:50:06 INFO  datax-service-system main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2022-06-13 21:50:06 INFO  datax-service-system main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'taskExecutor'
+2022-06-13 21:50:06 INFO  datax-service-system main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-13 21:50:06 INFO  datax-service-system main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-13 21:50:07 INFO  datax-service-system main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: b800b6ad-9f7c-4c2c-9172-9c6eb850b0c9
+
+2022-06-13 21:50:07 INFO  datax-service-system main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ef3f72c, org.springframework.security.web.context.SecurityContextPersistenceFilter@271bbb75, org.springframework.security.web.header.HeaderWriterFilter@70796b21, org.springframework.security.web.authentication.logout.LogoutFilter@661ec798, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@c9a8e12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73193fe0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7119d1da, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e791e53, org.springframework.security.web.session.SessionManagementFilter@16d4757f, org.springframework.security.web.access.ExceptionTranslationFilter@5aac9d67, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@534f4a65]
+2022-06-13 21:50:08 INFO  datax-service-system main org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses Jersey
+2022-06-13 21:50:08 INFO  datax-service-system main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2022-06-13 21:50:08 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2022-06-13 21:50:08 INFO  datax-service-system main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2022-06-13 21:50:08 INFO  datax-service-system main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2022-06-13 21:50:08 INFO  datax-service-system main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2022-06-13 21:50:08 INFO  datax-service-system main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2022-06-13 21:50:09 INFO  datax-service-system main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:50:09 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2022-06-13 21:50:09 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2022-06-13 21:50:09 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2022-06-13 21:50:09 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Application is null : false
+2022-06-13 21:50:09 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2022-06-13 21:50:09 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2022-06-13 21:50:09 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2022-06-13 21:50:10 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient The response status is 200
+2022-06-13 21:50:10 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2022-06-13 21:50:10 INFO  datax-service-system main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-06-13 21:50:10 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1655128210036 with initial instances count: 3
+2022-06-13 21:50:10 INFO  datax-service-system main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application DATAX-SERVICE-SYSTEM with eureka with status UP
+2022-06-13 21:50:10 INFO  datax-service-system main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1655128210036, current=UP, previous=STARTING]
+2022-06-13 21:50:10 INFO  datax-service-system DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-SYSTEM/li20220331.mshome.net:datax-service-system:8810: registering service...
+2022-06-13 21:50:10 INFO  datax-service-system main io.undertow starting server: Undertow - 2.1.4.Final
+2022-06-13 21:50:10 INFO  datax-service-system main org.xnio XNIO version 3.8.0.Final
+2022-06-13 21:50:10 INFO  datax-service-system main org.xnio.nio XNIO NIO Implementation Version 3.8.0.Final
+2022-06-13 21:50:10 INFO  datax-service-system DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-SYSTEM/li20220331.mshome.net:datax-service-system:8810 - registration status: 204
+2022-06-13 21:50:10 INFO  datax-service-system main org.jboss.threads JBoss Threads version 3.1.0.Final
+2022-06-13 21:50:10 INFO  datax-service-system main org.springframework.boot.web.embedded.undertow.UndertowWebServer Undertow started on port(s) 8810 (http)
+2022-06-13 21:50:10 INFO  datax-service-system main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8810
+2022-06-13 21:50:11 INFO  datax-service-system main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2022-06-13 21:50:11 INFO  datax-service-system main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2022-06-13 21:50:11 INFO  datax-service-system main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2022-06-13 21:50:11 INFO  datax-service-system main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deletePostBatchUsingDELETE_1
+2022-06-13 21:50:11 INFO  datax-service-system main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getPostListUsingGET_1
+2022-06-13 21:50:11 INFO  datax-service-system main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deletePostBatchUsingDELETE_2
+2022-06-13 21:50:11 INFO  datax-service-system main cn.datax.service.system.DataxSystemApplication Started DataxSystemApplication in 20.83 seconds (JVM running for 21.615)
+2022-06-13 21:51:54 INFO  datax-service-system XNIO-1 task-1 io.undertow.servlet Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-13 21:51:54 INFO  datax-service-system XNIO-1 task-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-06-13 21:51:54 INFO  datax-service-system XNIO-1 task-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 15 ms
+2022-06-13 21:51:54 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 21:54:06 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 21:55:09 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:59:20 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 22:00:09 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 22:05:09 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 22:05:47 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 22:05:51 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 22:05:55 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 22:09:09 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 22:09:18 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 22:09:43 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 22:10:09 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 22:13:44 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 22:15:09 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 22:16:04 INFO  datax-service-system XNIO-1 task-1 cn.datax.common.security.config.DataSecurityInnerAspect feign内部接口访问 loginByUsername 不鉴权处理
+2022-06-13 22:17:48 INFO  datax-service-system XNIO-1 task-2 org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Fetching config from server at : http://localhost:8611/
+2022-06-13 22:17:50 INFO  datax-service-system XNIO-1 task-2 org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Located environment: name=datax-service-system, profiles=[dev], label=null, version=null, state=null
+2022-06-13 22:20:09 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 22:23:01 INFO  datax-service-system XNIO-1 task-3 org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Fetching config from server at : http://localhost:8611/
+2022-06-13 22:23:03 INFO  datax-service-system XNIO-1 task-3 org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Located environment: name=datax-service-system, profiles=[dev], label=null, version=null, state=null
+2022-06-13 22:25:09 INFO  datax-service-system AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration

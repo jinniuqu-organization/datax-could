@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/codegen-service-parent/codegen-service/codegen-service.iml" filepath="$PROJECT_DIR$/datax-modules/codegen-service-parent/codegen-service/codegen-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/codegen-service-parent/codegen-service-api/codegen-service-api.iml" filepath="$PROJECT_DIR$/datax-modules/codegen-service-parent/codegen-service-api/codegen-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/codegen-service-parent/codegen-service-parent.iml" filepath="$PROJECT_DIR$/datax-modules/codegen-service-parent/codegen-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service/data-market-service.iml" filepath="$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service/data-market-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service-api/data-market-service-api.iml" filepath="$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service-api/data-market-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service-integration/data-market-service-integration.iml" filepath="$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service-integration/data-market-service-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service-mapping/data-market-service-mapping.iml" filepath="$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service-mapping/data-market-service-mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service-parent.iml" filepath="$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-masterdata-service-parent/data-masterdata-service/data-masterdata-service.iml" filepath="$PROJECT_DIR$/datax-modules/data-masterdata-service-parent/data-masterdata-service/data-masterdata-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-masterdata-service-parent/data-masterdata-service-api/data-masterdata-service-api.iml" filepath="$PROJECT_DIR$/datax-modules/data-masterdata-service-parent/data-masterdata-service-api/data-masterdata-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-masterdata-service-parent/data-masterdata-service-parent.iml" filepath="$PROJECT_DIR$/datax-modules/data-masterdata-service-parent/data-masterdata-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-metadata-service-parent/data-metadata-service/data-metadata-service.iml" filepath="$PROJECT_DIR$/datax-modules/data-metadata-service-parent/data-metadata-service/data-metadata-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-metadata-service-parent/data-metadata-service-api/data-metadata-service-api.iml" filepath="$PROJECT_DIR$/datax-modules/data-metadata-service-parent/data-metadata-service-api/data-metadata-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-metadata-service-parent/data-metadata-service-console/data-metadata-service-console.iml" filepath="$PROJECT_DIR$/datax-modules/data-metadata-service-parent/data-metadata-service-console/data-metadata-service-console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-metadata-service-parent/data-metadata-service-parent.iml" filepath="$PROJECT_DIR$/datax-modules/data-metadata-service-parent/data-metadata-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-quality-service-parent/data-quality-service/data-quality-service.iml" filepath="$PROJECT_DIR$/datax-modules/data-quality-service-parent/data-quality-service/data-quality-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-quality-service-parent/data-quality-service-api/data-quality-service-api.iml" filepath="$PROJECT_DIR$/datax-modules/data-quality-service-parent/data-quality-service-api/data-quality-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-quality-service-parent/data-quality-service-parent.iml" filepath="$PROJECT_DIR$/datax-modules/data-quality-service-parent/data-quality-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-standard-service-parent/data-standard-service/data-standard-service.iml" filepath="$PROJECT_DIR$/datax-modules/data-standard-service-parent/data-standard-service/data-standard-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-standard-service-parent/data-standard-service-api/data-standard-service-api.iml" filepath="$PROJECT_DIR$/datax-modules/data-standard-service-parent/data-standard-service-api/data-standard-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-standard-service-parent/data-standard-service-parent.iml" filepath="$PROJECT_DIR$/datax-modules/data-standard-service-parent/data-standard-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-visual-service-parent/data-visual-service/data-visual-service.iml" filepath="$PROJECT_DIR$/datax-modules/data-visual-service-parent/data-visual-service/data-visual-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-visual-service-parent/data-visual-service-api/data-visual-service-api.iml" filepath="$PROJECT_DIR$/datax-modules/data-visual-service-parent/data-visual-service-api/data-visual-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/data-visual-service-parent/data-visual-service-parent.iml" filepath="$PROJECT_DIR$/datax-modules/data-visual-service-parent/data-visual-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-auth/datax-auth.iml" filepath="$PROJECT_DIR$/datax-auth/datax-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-cloud.iml" filepath="$PROJECT_DIR$/datax-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-common/datax-common.iml" filepath="$PROJECT_DIR$/datax-common/datax-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-common/datax-common-core/datax-common-core.iml" filepath="$PROJECT_DIR$/datax-common/datax-common-core/datax-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-common/datax-common-database/datax-common-database.iml" filepath="$PROJECT_DIR$/datax-common/datax-common-database/datax-common-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-common/datax-common-dictionary/datax-common-dictionary.iml" filepath="$PROJECT_DIR$/datax-common/datax-common-dictionary/datax-common-dictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-common/datax-common-jasperreport/datax-common-jasperreport.iml" filepath="$PROJECT_DIR$/datax-common/datax-common-jasperreport/datax-common-jasperreport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-common/datax-common-log/datax-common-log.iml" filepath="$PROJECT_DIR$/datax-common/datax-common-log/datax-common-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-common/datax-common-mybatis/datax-common-mybatis.iml" filepath="$PROJECT_DIR$/datax-common/datax-common-mybatis/datax-common-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-common/datax-common-office/datax-common-office.iml" filepath="$PROJECT_DIR$/datax-common/datax-common-office/datax-common-office.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-common/datax-common-qrcode/datax-common-qrcode.iml" filepath="$PROJECT_DIR$/datax-common/datax-common-qrcode/datax-common-qrcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-common/datax-common-rabbitmq/datax-common-rabbitmq.iml" filepath="$PROJECT_DIR$/datax-common/datax-common-rabbitmq/datax-common-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-common/datax-common-redis/datax-common-redis.iml" filepath="$PROJECT_DIR$/datax-common/datax-common-redis/datax-common-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-common/datax-common-security/datax-common-security.iml" filepath="$PROJECT_DIR$/datax-common/datax-common-security/datax-common-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-config/datax-config.iml" filepath="$PROJECT_DIR$/datax-config/datax-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-eureka/datax-eureka.iml" filepath="$PROJECT_DIR$/datax-eureka/datax-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-gateway/datax-gateway.iml" filepath="$PROJECT_DIR$/datax-gateway/datax-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/datax-modules.iml" filepath="$PROJECT_DIR$/datax-modules/datax-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-tools/datax-tool-monitor/datax-tool-monitor.iml" filepath="$PROJECT_DIR$/datax-tools/datax-tool-monitor/datax-tool-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-tools/datax-tools.iml" filepath="$PROJECT_DIR$/datax-tools/datax-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/email-service-parent/email-service/email-service.iml" filepath="$PROJECT_DIR$/datax-modules/email-service-parent/email-service/email-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/email-service-parent/email-service-api/email-service-api.iml" filepath="$PROJECT_DIR$/datax-modules/email-service-parent/email-service-api/email-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/email-service-parent/email-service-parent.iml" filepath="$PROJECT_DIR$/datax-modules/email-service-parent/email-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/file-service-parent/file-service/file-service.iml" filepath="$PROJECT_DIR$/datax-modules/file-service-parent/file-service/file-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/file-service-parent/file-service-api/file-service-api.iml" filepath="$PROJECT_DIR$/datax-modules/file-service-parent/file-service-api/file-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/file-service-parent/file-service-parent.iml" filepath="$PROJECT_DIR$/datax-modules/file-service-parent/file-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/quartz-service-parent/quartz-service/quartz-service.iml" filepath="$PROJECT_DIR$/datax-modules/quartz-service-parent/quartz-service/quartz-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/quartz-service-parent/quartz-service-api/quartz-service-api.iml" filepath="$PROJECT_DIR$/datax-modules/quartz-service-parent/quartz-service-api/quartz-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/quartz-service-parent/quartz-service-parent.iml" filepath="$PROJECT_DIR$/datax-modules/quartz-service-parent/quartz-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/system-service-parent/system-service/system-service.iml" filepath="$PROJECT_DIR$/datax-modules/system-service-parent/system-service/system-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/system-service-parent/system-service-api/system-service-api.iml" filepath="$PROJECT_DIR$/datax-modules/system-service-parent/system-service-api/system-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/system-service-parent/system-service-parent.iml" filepath="$PROJECT_DIR$/datax-modules/system-service-parent/system-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/workflow-service-parent/workflow-service/workflow-service.iml" filepath="$PROJECT_DIR$/datax-modules/workflow-service-parent/workflow-service/workflow-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/workflow-service-parent/workflow-service-api/workflow-service-api.iml" filepath="$PROJECT_DIR$/datax-modules/workflow-service-parent/workflow-service-api/workflow-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datax-modules/workflow-service-parent/workflow-service-parent.iml" filepath="$PROJECT_DIR$/datax-modules/workflow-service-parent/workflow-service-parent.iml" />
+    </modules>
+  </component>
+</project>

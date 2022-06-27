@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-common/datax-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-common/datax-common-database" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-common/datax-common-dictionary" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-common/datax-common-jasperreport" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-common/datax-common-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-common/datax-common-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-common/datax-common-office" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-common/datax-common-qrcode" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-common/datax-common-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-common/datax-common-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-common/datax-common-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/codegen-service-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/codegen-service-parent/codegen-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/codegen-service-parent/codegen-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-market-service-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service-integration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-market-service-parent/data-market-service-mapping" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-masterdata-service-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-masterdata-service-parent/data-masterdata-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-masterdata-service-parent/data-masterdata-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-metadata-service-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-metadata-service-parent/data-metadata-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-metadata-service-parent/data-metadata-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-metadata-service-parent/data-metadata-service-console" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-quality-service-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-quality-service-parent/data-quality-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-quality-service-parent/data-quality-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-standard-service-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-standard-service-parent/data-standard-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-standard-service-parent/data-standard-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-visual-service-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-visual-service-parent/data-visual-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/data-visual-service-parent/data-visual-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/email-service-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/email-service-parent/email-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/email-service-parent/email-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/file-service-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/file-service-parent/file-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/file-service-parent/file-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/quartz-service-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/quartz-service-parent/quartz-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/quartz-service-parent/quartz-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/system-service-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/system-service-parent/system-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/system-service-parent/system-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/workflow-service-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/workflow-service-parent/workflow-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-modules/workflow-service-parent/workflow-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-tools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-tools/datax-tool-monitor" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,133 @@
+2022-06-14 10:44:26 INFO  datax-service-data-quality background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+2022-06-14 10:44:27 INFO  datax-service-data-quality main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Fetching config from server at : http://localhost:8611/
+2022-06-14 10:44:28 INFO  datax-service-data-quality main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Located environment: name=datax-service-data-quality, profiles=[dev], label=null, version=null, state=null
+2022-06-14 10:44:28 INFO  datax-service-data-quality main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-classpath:/config/datax-service-data-quality-dev.yml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config/application-dev.yml'}]
+2022-06-14 10:44:28 INFO  datax-service-data-quality main cn.datax.service.data.quality.DataxQualityApplication The following profiles are active: dev
+2022-06-14 10:44:30 INFO  datax-service-data-quality main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-14 10:44:30 INFO  datax-service-data-quality main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-14 10:44:30 INFO  datax-service-data-quality main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2022-06-14 10:44:31 INFO  datax-service-data-quality main org.springframework.cloud.context.scope.GenericScope BeanFactory id=dc742060-0f32-3c1d-892b-b41e5e7f503d
+2022-06-14 10:44:31 INFO  datax-service-data-quality main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 10:44:31 INFO  datax-service-data-quality main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$53e8f762] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 10:44:31 INFO  datax-service-data-quality main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 10:44:31 INFO  datax-service-data-quality main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@100bba26' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 10:44:31 INFO  datax-service-data-quality main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 10:44:32 INFO  datax-service-data-quality main io.undertow.servlet Initializing Spring embedded WebApplicationContext
+2022-06-14 10:44:32 INFO  datax-service-data-quality main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3972 ms
+2022-06-14 10:44:33 INFO  datax-service-data-quality main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-14 10:44:33 INFO  datax-service-data-quality main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3348c987
+2022-06-14 10:44:33 INFO  datax-service-data-quality main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2022-06-14 10:44:33 INFO  datax-service-data-quality main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2022-06-14 10:44:33 INFO  datax-service-data-quality main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'taskScheduler'
+2022-06-14 10:44:33 INFO  datax-service-data-quality main com.zaxxer.hikari.HikariDataSource mysql - Starting...
+2022-06-14 10:44:34 INFO  datax-service-data-quality main com.zaxxer.hikari.HikariDataSource mysql - Start completed.
+2022-06-14 10:44:34 INFO  datax-service-data-quality main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - load a datasource named [mysql] success
+2022-06-14 10:44:34 INFO  datax-service-data-quality main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [mysql]
+2022-06-14 10:44:38 INFO  datax-service-data-quality main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-06-14 10:44:39 INFO  datax-service-data-quality main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-14 10:44:39 INFO  datax-service-data-quality main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-14 10:44:39 INFO  datax-service-data-quality main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-14 10:44:40 INFO  datax-service-data-quality main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 2bf18037-d96e-41f5-8d89-794e8be16a91
+
+2022-06-14 10:44:40 INFO  datax-service-data-quality main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10ecdd85, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a2bcce1, org.springframework.security.web.header.HeaderWriterFilter@3566d527, org.springframework.security.web.authentication.logout.LogoutFilter@69e3caa1, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@49d5db99, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78002333, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31137f4d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21b05a8a, org.springframework.security.web.session.SessionManagementFilter@55e8522e, org.springframework.security.web.access.ExceptionTranslationFilter@7da3d617, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55aadbf2]
+2022-06-14 10:44:41 INFO  datax-service-data-quality main org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses Jersey
+2022-06-14 10:44:41 INFO  datax-service-data-quality main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2022-06-14 10:44:41 INFO  datax-service-data-quality main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2022-06-14 10:44:42 INFO  datax-service-data-quality main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2022-06-14 10:44:42 INFO  datax-service-data-quality main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2022-06-14 10:44:42 INFO  datax-service-data-quality main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2022-06-14 10:44:42 INFO  datax-service-data-quality main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2022-06-14 10:44:42 INFO  datax-service-data-quality main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 10:44:43 INFO  datax-service-data-quality main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2022-06-14 10:44:43 INFO  datax-service-data-quality main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2022-06-14 10:44:43 INFO  datax-service-data-quality main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2022-06-14 10:44:43 INFO  datax-service-data-quality main com.netflix.discovery.DiscoveryClient Application is null : false
+2022-06-14 10:44:43 INFO  datax-service-data-quality main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2022-06-14 10:44:43 INFO  datax-service-data-quality main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2022-06-14 10:44:43 INFO  datax-service-data-quality main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2022-06-14 10:44:43 INFO  datax-service-data-quality main com.netflix.discovery.DiscoveryClient The response status is 200
+2022-06-14 10:44:43 INFO  datax-service-data-quality main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2022-06-14 10:44:43 INFO  datax-service-data-quality main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-06-14 10:44:43 INFO  datax-service-data-quality main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1655174683670 with initial instances count: 9
+2022-06-14 10:44:43 INFO  datax-service-data-quality main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application DATAX-SERVICE-DATA-QUALITY with eureka with status UP
+2022-06-14 10:44:43 INFO  datax-service-data-quality main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1655174683684, current=UP, previous=STARTING]
+2022-06-14 10:44:43 INFO  datax-service-data-quality DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-DATA-QUALITY/li20220331:datax-service-data-quality:8826: registering service...
+2022-06-14 10:44:43 INFO  datax-service-data-quality main io.undertow starting server: Undertow - 2.1.4.Final
+2022-06-14 10:44:43 INFO  datax-service-data-quality main org.xnio XNIO version 3.8.0.Final
+2022-06-14 10:44:43 INFO  datax-service-data-quality main org.xnio.nio XNIO NIO Implementation Version 3.8.0.Final
+2022-06-14 10:44:43 INFO  datax-service-data-quality DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-DATA-QUALITY/li20220331:datax-service-data-quality:8826 - registration status: 204
+2022-06-14 10:44:43 INFO  datax-service-data-quality main org.jboss.threads JBoss Threads version 3.1.0.Final
+2022-06-14 10:44:43 INFO  datax-service-data-quality main org.springframework.boot.web.embedded.undertow.UndertowWebServer Undertow started on port(s) 8826 (http)
+2022-06-14 10:44:43 INFO  datax-service-data-quality main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8826
+2022-06-14 10:44:44 INFO  datax-service-data-quality main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2022-06-14 10:44:44 INFO  datax-service-data-quality main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2022-06-14 10:44:45 INFO  datax-service-data-quality main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2022-06-14 10:44:45 INFO  datax-service-data-quality main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getRuleTypeListUsingGET_1
+2022-06-14 10:44:45 INFO  datax-service-data-quality main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getRuleTypeListUsingGET_2
+2022-06-14 10:44:45 INFO  datax-service-data-quality main cn.datax.service.data.quality.DataxQualityApplication Started DataxQualityApplication in 21.039 seconds (JVM running for 22.221)
+2022-06-14 10:44:45 INFO  datax-service-data-quality main cn.datax.service.data.quality.config.StartedUpRunner 定时任务已加载完毕...
+2022-06-14 10:49:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 10:54:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 10:59:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:03:44 INFO  datax-service-data-quality XNIO-1 task-1 io.undertow.servlet Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 11:03:44 INFO  datax-service-data-quality XNIO-1 task-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-06-14 11:03:44 INFO  datax-service-data-quality XNIO-1 task-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 41 ms
+2022-06-14 11:04:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:09:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:14:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:19:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:24:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:29:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:34:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:39:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:44:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:49:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:54:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 11:59:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:04:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:09:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:14:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:19:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:24:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:29:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:34:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:39:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:44:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:49:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:54:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 12:59:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:04:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:09:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:14:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:19:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:24:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:29:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:34:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:39:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:44:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:49:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:54:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 13:59:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:04:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:09:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:14:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:19:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:24:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:29:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:34:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:39:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:44:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:49:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:54:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 14:59:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:04:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:09:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:14:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:19:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:24:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:29:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:34:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:39:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-14 15:44:43 INFO  datax-service-data-quality AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration

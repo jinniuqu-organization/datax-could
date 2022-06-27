@@ -1,0 +1,197 @@
+2022-06-13 20:02:45 INFO  datax-service-quartz background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+2022-06-13 20:02:46 INFO  datax-service-quartz main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Fetching config from server at : http://localhost:8611/
+2022-06-13 20:02:47 INFO  datax-service-quartz main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Located environment: name=datax-service-quartz, profiles=[dev], label=null, version=null, state=null
+2022-06-13 20:02:47 INFO  datax-service-quartz main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-classpath:/config/datax-service-quartz-dev.yml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config/application-dev.yml'}]
+2022-06-13 20:02:47 INFO  datax-service-quartz main cn.datax.service.quartz.DataxQuartzApplication The following profiles are active: dev
+2022-06-13 20:02:50 INFO  datax-service-quartz main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-13 20:02:50 INFO  datax-service-quartz main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-13 20:02:50 INFO  datax-service-quartz main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+2022-06-13 20:02:51 INFO  datax-service-quartz main org.springframework.cloud.context.scope.GenericScope BeanFactory id=420fd7c5-0da2-3a9f-9ac4-7c260dc11744
+2022-06-13 20:02:51 INFO  datax-service-quartz main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@44faa4f2' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 20:02:51 INFO  datax-service-quartz main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 20:02:53 INFO  datax-service-quartz main io.undertow.servlet Initializing Spring embedded WebApplicationContext
+2022-06-13 20:02:53 INFO  datax-service-quartz main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 5277 ms
+2022-06-13 20:02:53 INFO  datax-service-quartz main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-13 20:02:53 INFO  datax-service-quartz main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7ed8b44
+2022-06-13 20:02:53 INFO  datax-service-quartz main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2022-06-13 20:02:57 INFO  datax-service-quartz main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-06-13 20:02:58 INFO  datax-service-quartz main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2022-06-13 20:02:58 INFO  datax-service-quartz main org.quartz.simpl.SimpleThreadPool Job execution threads will use class loader of thread: main
+2022-06-13 20:02:58 INFO  datax-service-quartz main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-06-13 20:02:58 INFO  datax-service-quartz main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2022-06-13 20:02:58 INFO  datax-service-quartz main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-06-13 20:02:59 INFO  datax-service-quartz main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-06-13 20:02:59 INFO  datax-service-quartz main org.springframework.scheduling.quartz.LocalDataSourceJobStore Using db table-based data access locking (synchronization).
+2022-06-13 20:02:59 INFO  datax-service-quartz main org.springframework.scheduling.quartz.LocalDataSourceJobStore JobStoreCMT initialized.
+2022-06-13 20:02:59 INFO  datax-service-quartz main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'li202203311655121778514'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2022-06-13 20:02:59 INFO  datax-service-quartz main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-06-13 20:02:59 INFO  datax-service-quartz main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2022-06-13 20:02:59 INFO  datax-service-quartz main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6f25ed2b
+2022-06-13 20:02:59 INFO  datax-service-quartz main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2022-06-13 20:02:59 INFO  datax-service-quartz main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2022-06-13 20:02:59 INFO  datax-service-quartz main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_li202203311655121778514 started.
+2022-06-13 20:02:59 INFO  datax-service-quartz main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-13 20:02:59 INFO  datax-service-quartz main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-13 20:02:59 INFO  datax-service-quartz main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-13 20:03:00 INFO  datax-service-quartz main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 75eeb999-a1cd-4cf8-bd02-3897e4932e7c
+
+2022-06-13 20:03:01 INFO  datax-service-quartz main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@453ff774, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f76c712, org.springframework.security.web.header.HeaderWriterFilter@27476b5f, org.springframework.security.web.authentication.logout.LogoutFilter@70796b21, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@47d8c666, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a816a78, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f2312f3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ea82cef, org.springframework.security.web.session.SessionManagementFilter@1817f7f0, org.springframework.security.web.access.ExceptionTranslationFilter@7326f323, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6a5ed5f9]
+2022-06-13 20:03:02 INFO  datax-service-quartz main org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses Jersey
+2022-06-13 20:03:02 INFO  datax-service-quartz main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2022-06-13 20:03:02 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2022-06-13 20:03:02 INFO  datax-service-quartz main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2022-06-13 20:03:02 INFO  datax-service-quartz main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2022-06-13 20:03:02 INFO  datax-service-quartz main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2022-06-13 20:03:02 INFO  datax-service-quartz main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2022-06-13 20:03:03 INFO  datax-service-quartz main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:03:03 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2022-06-13 20:03:03 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2022-06-13 20:03:03 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2022-06-13 20:03:03 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Application is null : false
+2022-06-13 20:03:03 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2022-06-13 20:03:03 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2022-06-13 20:03:03 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2022-06-13 20:03:04 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient The response status is 200
+2022-06-13 20:03:04 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2022-06-13 20:03:04 INFO  datax-service-quartz main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-06-13 20:03:04 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1655121784097 with initial instances count: 4
+2022-06-13 20:03:04 INFO  datax-service-quartz main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application DATAX-SERVICE-QUARTZ with eureka with status UP
+2022-06-13 20:03:04 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1655121784109, current=UP, previous=STARTING]
+2022-06-13 20:03:04 INFO  datax-service-quartz DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-QUARTZ/li20220331.mshome.net:datax-service-quartz:8813: registering service...
+2022-06-13 20:03:04 INFO  datax-service-quartz main io.undertow starting server: Undertow - 2.1.4.Final
+2022-06-13 20:03:04 INFO  datax-service-quartz main org.xnio XNIO version 3.8.0.Final
+2022-06-13 20:03:04 INFO  datax-service-quartz DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-QUARTZ/li20220331.mshome.net:datax-service-quartz:8813 - registration status: 204
+2022-06-13 20:03:04 INFO  datax-service-quartz main org.xnio.nio XNIO NIO Implementation Version 3.8.0.Final
+2022-06-13 20:03:04 INFO  datax-service-quartz main org.jboss.threads JBoss Threads version 3.1.0.Final
+2022-06-13 20:03:04 INFO  datax-service-quartz main org.springframework.boot.web.embedded.undertow.UndertowWebServer Undertow started on port(s) 8813 (http)
+2022-06-13 20:03:04 INFO  datax-service-quartz main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8813
+2022-06-13 20:03:05 INFO  datax-service-quartz main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2022-06-13 20:03:05 INFO  datax-service-quartz main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2022-06-13 20:03:05 INFO  datax-service-quartz main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2022-06-13 20:03:05 INFO  datax-service-quartz main cn.datax.service.quartz.DataxQuartzApplication Started DataxQuartzApplication in 22.88 seconds (JVM running for 24.126)
+2022-06-13 20:08:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:13:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:18:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:23:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:28:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:33:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:38:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:43:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:48:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:53:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 20:58:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:03:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:08:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:13:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:18:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:23:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:28:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:33:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:38:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:43:03 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:50:45 INFO  datax-service-quartz background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+2022-06-13 21:50:47 INFO  datax-service-quartz main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Fetching config from server at : http://localhost:8611/
+2022-06-13 21:50:47 INFO  datax-service-quartz main org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Located environment: name=datax-service-quartz, profiles=[dev], label=null, version=null, state=null
+2022-06-13 21:50:47 INFO  datax-service-quartz main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-classpath:/config/datax-service-quartz-dev.yml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config/application-dev.yml'}]
+2022-06-13 21:50:47 INFO  datax-service-quartz main cn.datax.service.quartz.DataxQuartzApplication The following profiles are active: dev
+2022-06-13 21:50:49 INFO  datax-service-quartz main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-13 21:50:49 INFO  datax-service-quartz main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-13 21:50:49 INFO  datax-service-quartz main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2022-06-13 21:50:50 INFO  datax-service-quartz main org.springframework.cloud.context.scope.GenericScope BeanFactory id=420fd7c5-0da2-3a9f-9ac4-7c260dc11744
+2022-06-13 21:50:50 INFO  datax-service-quartz main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4e974b9e' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 21:50:50 INFO  datax-service-quartz main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-13 21:50:51 INFO  datax-service-quartz main io.undertow.servlet Initializing Spring embedded WebApplicationContext
+2022-06-13 21:50:51 INFO  datax-service-quartz main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3760 ms
+2022-06-13 21:50:51 INFO  datax-service-quartz main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-13 21:50:51 INFO  datax-service-quartz main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@35e07e19
+2022-06-13 21:50:52 INFO  datax-service-quartz main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2022-06-13 21:50:56 INFO  datax-service-quartz main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-06-13 21:50:56 INFO  datax-service-quartz main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2022-06-13 21:50:56 INFO  datax-service-quartz main org.quartz.simpl.SimpleThreadPool Job execution threads will use class loader of thread: main
+2022-06-13 21:50:56 INFO  datax-service-quartz main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-06-13 21:50:56 INFO  datax-service-quartz main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2022-06-13 21:50:56 INFO  datax-service-quartz main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-06-13 21:50:57 INFO  datax-service-quartz main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-06-13 21:50:57 INFO  datax-service-quartz main org.springframework.scheduling.quartz.LocalDataSourceJobStore Using db table-based data access locking (synchronization).
+2022-06-13 21:50:57 INFO  datax-service-quartz main org.springframework.scheduling.quartz.LocalDataSourceJobStore JobStoreCMT initialized.
+2022-06-13 21:50:57 INFO  datax-service-quartz main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'li202203311655128256551'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2022-06-13 21:50:57 INFO  datax-service-quartz main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-06-13 21:50:57 INFO  datax-service-quartz main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2022-06-13 21:50:57 INFO  datax-service-quartz main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@673605ef
+2022-06-13 21:50:57 INFO  datax-service-quartz main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2022-06-13 21:50:57 INFO  datax-service-quartz main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2022-06-13 21:50:57 INFO  datax-service-quartz main org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: detected 1 failed or restarted instances.
+2022-06-13 21:50:57 INFO  datax-service-quartz main org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: Scanning for instance "li202203311655121778514"'s failed in-progress jobs.
+2022-06-13 21:50:57 INFO  datax-service-quartz main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_li202203311655128256551 started.
+2022-06-13 21:50:57 INFO  datax-service-quartz main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-13 21:50:57 INFO  datax-service-quartz main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-13 21:50:57 INFO  datax-service-quartz main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-13 21:50:58 INFO  datax-service-quartz main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 50cebfcb-482a-43e4-8ddf-27e1844526a1
+
+2022-06-13 21:50:58 INFO  datax-service-quartz main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78181f7f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c74025e, org.springframework.security.web.header.HeaderWriterFilter@1acf7db2, org.springframework.security.web.authentication.logout.LogoutFilter@43941806, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@5ace5b0e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29db9746, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64dd94ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6682e9b0, org.springframework.security.web.session.SessionManagementFilter@6b1e72a4, org.springframework.security.web.access.ExceptionTranslationFilter@71d92487, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b6824db]
+2022-06-13 21:50:59 INFO  datax-service-quartz main org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses Jersey
+2022-06-13 21:50:59 INFO  datax-service-quartz main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2022-06-13 21:51:00 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2022-06-13 21:51:00 INFO  datax-service-quartz main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2022-06-13 21:51:00 INFO  datax-service-quartz main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2022-06-13 21:51:00 INFO  datax-service-quartz main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2022-06-13 21:51:00 INFO  datax-service-quartz main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2022-06-13 21:51:00 INFO  datax-service-quartz main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 21:51:01 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2022-06-13 21:51:01 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2022-06-13 21:51:01 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2022-06-13 21:51:01 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Application is null : false
+2022-06-13 21:51:01 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2022-06-13 21:51:01 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2022-06-13 21:51:01 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2022-06-13 21:51:01 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient The response status is 200
+2022-06-13 21:51:01 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2022-06-13 21:51:01 INFO  datax-service-quartz main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-06-13 21:51:01 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1655128261721 with initial instances count: 4
+2022-06-13 21:51:01 INFO  datax-service-quartz main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application DATAX-SERVICE-QUARTZ with eureka with status UP
+2022-06-13 21:51:01 INFO  datax-service-quartz main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1655128261731, current=UP, previous=STARTING]
+2022-06-13 21:51:01 INFO  datax-service-quartz DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-QUARTZ/li20220331.mshome.net:datax-service-quartz:8813: registering service...
+2022-06-13 21:51:01 INFO  datax-service-quartz main io.undertow starting server: Undertow - 2.1.4.Final
+2022-06-13 21:51:01 INFO  datax-service-quartz main org.xnio XNIO version 3.8.0.Final
+2022-06-13 21:51:01 INFO  datax-service-quartz main org.xnio.nio XNIO NIO Implementation Version 3.8.0.Final
+2022-06-13 21:51:01 INFO  datax-service-quartz DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_DATAX-SERVICE-QUARTZ/li20220331.mshome.net:datax-service-quartz:8813 - registration status: 204
+2022-06-13 21:51:01 INFO  datax-service-quartz main org.jboss.threads JBoss Threads version 3.1.0.Final
+2022-06-13 21:51:01 INFO  datax-service-quartz main org.springframework.boot.web.embedded.undertow.UndertowWebServer Undertow started on port(s) 8813 (http)
+2022-06-13 21:51:01 INFO  datax-service-quartz main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8813
+2022-06-13 21:51:02 INFO  datax-service-quartz main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2022-06-13 21:51:02 INFO  datax-service-quartz main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2022-06-13 21:51:02 INFO  datax-service-quartz main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2022-06-13 21:51:03 INFO  datax-service-quartz main cn.datax.service.quartz.DataxQuartzApplication Started DataxQuartzApplication in 19.561 seconds (JVM running for 20.342)
+2022-06-13 21:56:01 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 22:01:01 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 22:06:01 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 22:11:01 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 22:16:01 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 22:17:48 INFO  datax-service-quartz XNIO-1 task-1 io.undertow.servlet Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-13 22:17:48 INFO  datax-service-quartz XNIO-1 task-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-06-13 22:17:48 INFO  datax-service-quartz XNIO-1 task-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 10 ms
+2022-06-13 22:17:48 INFO  datax-service-quartz XNIO-1 task-1 org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Fetching config from server at : http://localhost:8611/
+2022-06-13 22:17:50 INFO  datax-service-quartz XNIO-1 task-1 org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Located environment: name=datax-service-quartz, profiles=[dev], label=null, version=null, state=null
+2022-06-13 22:21:01 INFO  datax-service-quartz AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2022-06-13 22:23:01 INFO  datax-service-quartz XNIO-1 task-1 org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Fetching config from server at : http://localhost:8611/
+2022-06-13 22:23:03 INFO  datax-service-quartz XNIO-1 task-1 org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Located environment: name=datax-service-quartz, profiles=[dev], label=null, version=null, state=null
+2022-06-13 22:25:59 INFO  datax-service-quartz DiscoveryClient-CacheRefreshExecutor-0 org.apache.http.impl.client.DefaultHttpClient I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:8610: Connection reset
+2022-06-13 22:25:59 INFO  datax-service-quartz DiscoveryClient-CacheRefreshExecutor-0 org.apache.http.impl.client.DefaultHttpClient Retrying request to {}->http://localhost:8610
